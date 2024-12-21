@@ -1,53 +1,29 @@
 {
-  "AsiaAndAustralia": {
-    "Countries": [
-      {
-        "ID": 1,
-        "Name": "Malaysia",
-        "FlagImageURL": "https://example.com/malaysia-flag.jpg"
-      }
-    ],
-    "Leagues": [
-      {
-        "ID": 28,
-        "Name": "League Name",
-        "ImageURL": "<insert imageurl>"
-      }
-    ],
-    "Cups": [
-      {
-        "ID": 2,
-        "Name": "Cup Name",
-        "ImageURL": "<insert imageurl>"
-      }
-    ],
-    "Clubs": [
-      {
-        "ID": 1,
-        "Name": "Club Name",
-        "ShortName": "MCN",
-        "ImageURL": "<insert imageurl>"
-      }
-    ],
-    "Players": [
-      {
-        "ID": 1,
-        "Forename": "Player Forename",
-        "Surname": "Player Surname",
-        "ImageURL": "<insert imageurl>"
-      },
-      {
-        "ID": 2,
-        "Forename": "Player Forename",
-        "Surname": "Player Surname",
-        "ImageURL": "<insert imageurl>"
-      }
-    ],
-    "Stadiums": [
-      {
-        "ID": 1,
-        "Name": "Stadium Name"
-      }
-    ]
-  }
+  "Continents": [
+    {
+      "Name": "Europe",
+      "Countries": [
+        {"Name": "England", "FlagImageURL": "<insert england flag url>"},
+        {"Name": "Spain", "FlagImageURL": "<insert spain flag url>"},
+        ...
+      ]
+    },
+    {
+      "Name": "Americas",
+      "Countries": [
+        {"Name": "USA", "FlagImageURL": "<insert usa flag url>"},
+        {"Name": "Brazil", "FlagImageURL": "<insert brazil flag url>"},
+        ...
+      ]
+    },
+    {
+      "Name": "Asia and Australia",
+      "Countries": [
+        {"Name": "China", "FlagImageURL": "<insert china flag url>"},
+        {"Name": "Japan", "FlagImageURL": "<insert japan flag url>"},
+        {"Name": "Malaysia", "FlagImageURL": "https://example.com/malaysia-flag.jpg"},
+        {"Name": "Saudi Arabia", "FlagImageURL": "<insert saudi arabia flag url>"}
+      ]
+    }
+  ]
 }
